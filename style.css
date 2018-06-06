@@ -1,35 +1,72 @@
-
-.header_container {
-   background-color: grey;
-   margin-top: 30px;
-}
-/*
-header {
-   text-align: center;
-   margin: 0px;
-   background-color: grey;
+body {
+	margin: 0;
 }
 
-.top_section {
-   background-color: grey;
+.navigation {
+	background-color: pink;
+	text-align: center;
+	width: auto;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
 }
 
-nav {
-   margin-top: 20px;
-}
-ol {
-   margin: 0px;
-} */
+.nav_li {
+	display: inline;
+	font-size: 25px;
+	padding: 10px;
+	color: white;
 
-li {
-   display: inline;
 }
 
+.main_container {
+	display: flex;
+
+
+}
 
 .left_section {
-   background-color: pink;
+	background-color: green;
+	width: 65%;
+	float: left;
+	height: 100%;
 }
 
+/*insert ul and li here*/
+
 .right_section {
-   background-color: green;
+	background-color: grey;
+	width: 35%;
+	float: right;
+	height: 100%;
+}
+
+.first_article {
+
+}
+
+.second_article {
+
+}
+
+.paragraph {
+	font: Georgia;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	background-color: black;
+	color: white;
+	padding: 0.5em;
+
+}
+
+
+ul {
+
+}
+
+li {
+
 }
