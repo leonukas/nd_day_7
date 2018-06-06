@@ -1,0 +1,35 @@
+
+.header_container {
+   background-color: grey;
+   margin-top: 30px;
+}
+/*
+header {
+   text-align: center;
+   margin: 0px;
+   background-color: grey;
+}
+
+.top_section {
+   background-color: grey;
+}
+
+nav {
+   margin-top: 20px;
+}
+ol {
+   margin: 0px;
+} */
+
+li {
+   display: inline;
+}
+
+
+.left_section {
+   background-color: pink;
+}
+
+.right_section {
+   background-color: green;
+}
