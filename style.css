@@ -25,9 +25,9 @@ body {
 
 .left_section {
 	background-color: green;
-	flex-basis: 65%;
 	flex: 1;
 	box-sizing: border-box;
+	flex-basis: 65%;
 	padding: 20px;
 }
 
@@ -35,12 +35,12 @@ body {
 
 .right_section {
 	background-color: grey;
-	flex-basis: 35%;
 	flex: 1;
 	box-sizing: border-box;
 	padding: 20px;
 	display: flex;
 	flex-direction: column;
+	flex-basis: 35%;
 }
 
 .first_article {
