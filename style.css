@@ -21,7 +21,6 @@ body {
 
 .main_container {
 	display: flex;
-	flex-direction: column;
 }
 
 .left_section {
@@ -29,6 +28,7 @@ body {
 	flex-basis: 65%;
 	flex: 1;
 	box-sizing: border-box;
+	padding: 20px;
 }
 
 /*insert ul and li here*/
@@ -38,14 +38,17 @@ body {
 	flex-basis: 35%;
 	flex: 1;
 	box-sizing: border-box;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
 }
 
 .first_article {
-
+	flex: 1;
 }
 
 .second_article {
-
+	flex: 1;
 }
 
 .paragraph {
@@ -63,9 +66,9 @@ body {
 
 
 ul {
-	/* need to be defined */
+	color: black;/* need to be defined */
 }
 
 li {
-
+	color: black;
 }
