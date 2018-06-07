@@ -21,24 +21,23 @@ body {
 
 .main_container {
 	display: flex;
-
-
+	flex-direction: column;
 }
 
 .left_section {
 	background-color: green;
-	width: 65%;
-	float: left;
-	height: 100%;
+	flex-basis: 65%;
+	flex: 1;
+	box-sizing: border-box;
 }
 
 /*insert ul and li here*/
 
 .right_section {
 	background-color: grey;
-	width: 35%;
-	float: right;
-	height: 100%;
+	flex-basis: 35%;
+	flex: 1;
+	box-sizing: border-box;
 }
 
 .first_article {
